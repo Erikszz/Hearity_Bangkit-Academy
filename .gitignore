@@ -1,0 +1,11 @@
+# virtual Environment
+ml-forecasting/venv/
+data-pipeline/.env/
+
+# log directory
+data-pipeline/logs/
+
+# model-related files
+ml-forecasting/model/app.py
+ml-forecasting/model/trial_api.py
+ml-forecasting/model/trial.py
