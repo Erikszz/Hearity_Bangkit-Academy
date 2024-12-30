@@ -1,10 +1,15 @@
-# 📅 Daily Hearing Loss Forecasting for Heavy Machinery Workers: Leveraging Machine Learning in Time Series
+# 📅 Daily Hearing Loss Forecasting for Heavy Machinery Workers : Leveraging Machine Learning in Time Series
 
-### **Background: Hearing Loss in Heavy Machinery Workers 👂🛠️**
+As a cohort from [Bangkit Academy](https://grow.google/intl/id_id/bangkit/?tab=machine-learning)
+, we are required to create a capstone project in the form of a mobile application as a team. In line with my role, a machine learning cohort, all the directories I present here are my contributions to facilitating the development of this project.
+
+**👂 Hearity** is an app focused on preventing hearing loss, primarily targeting workers in noisy environments or heavy machinery sectors, where companies provide hearing tests.
+
+### **👂🛠️ Background : Hearing Loss in Heavy Machinery Workers**
 
 Heavy machinery workers are exposed to noisy environments (85 dB or higher) for up to 8 hours daily, which can lead to gradual hearing loss over time. Despite safety measures like earplugs and earmuffs, workers often neglect to use them due to discomfort, lack of enforcement, or a false sense of security. This gradual hearing loss is hard to detect until it becomes severe, and many workers are unaware of the irreversible nature of noise-induced hearing damage.
 
-### **Problem Statement** :
+### **❗💡 Problem Statement** :
 * **Gradual Hearing Loss 👂** : Hearing deterioration in noisy environments occurs slowly, making it hard to track without continuous monitoring.
 
 * **Infrequent Testing 🗓️** : Hearing tests are done only every six months, leaving gaps in tracking daily noise exposure impacts.
@@ -15,15 +20,15 @@ Heavy machinery workers are exposed to noisy environments (85 dB or higher) for 
 ### **📜 Data Overview** :
 This dataset was obtained through an interview with an audiologist who previously conducted hearing tests for workers in this field. I then combined this information with my own knowledge gained from working in the industry to avoid any potential bias.
 
-#### **Data Interval**:
+#### **Data Interval** :
 - **Start Date**: 2022/01/15
 - **End Date**: 2023/07/27
 
 The dataset contains hearing test results used to track hearing deterioration over time, specifically for workers exposed to high noise environments.
 
-For more details, you can access the dataset [here](https://github.com/Erikszz/Hearity_Bangkit-Academy/tree/main/ml-forecasting/data).
+*For more details, you can access the dataset [here](https://github.com/Erikszz/Hearity_Bangkit-Academy/tree/main/ml-forecasting/data).*
 
-Below are the first 5 rows of the dataset:
+Below are the first 5 rows of the dataset :
 
 ![First 5 Tables](img/first_5_rows.png)
 
@@ -38,12 +43,14 @@ Below are the first 5 rows of the dataset:
      - 📈 Matplotlib
      - ⚙️ Flask
      - 🐳 Docker
+     - 🔍 logging
      - 📒 Jupyter Notebook, 📙 Google Colab
 
 #### **🔗 Data Pipeline** :
      - 🐍 Python, 🗄️ SQL 
      - 📚 Pandas
      - 🔢 Numpy
+     - 🔍 logging
      - 🐳 Docker, 🐋 docker-compose
      - 🌬️ Apache Airflow
      - ☁️ Cloud:
@@ -52,7 +59,7 @@ Below are the first 5 rows of the dataset:
           - 🔑 Google Secrets Manager
           - 🚀 Cloud Run
 
-### **📇 Data Pipeline Overview**
+### **📇 Data Pipeline Overview** :
 ![Data Pipeline](img/data_pipeline.png)
 
 ### **🌬️ Apache Airflow Webserver** :
@@ -61,4 +68,6 @@ Below are the first 5 rows of the dataset:
 ### **📱 App Overview** :
 ![App Overview](img/hearity_app.png)
 
-### **📖 For Further Explanations**: [Detailed Explanation](https://github.com/Erikszz/Hearity_Bangkit-Academy/blob/main/Explanations-Hearity.pdf)
+### **📖 For Further Explanations** : [Detailed Explanation](https://github.com/Erikszz/Hearity_Bangkit-Academy/blob/main/Explanations-Hearity.pdf)
+
+### **🐙 GitHub Team** : [Hearity Team's GitHub](https://github.com/hearity-capstone); **Team Repository** : [Hearity Team's Repository](https://github.com/hearity-capstone/hearity-project)
