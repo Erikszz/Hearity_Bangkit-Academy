@@ -1,13 +1,13 @@
-# Hearing Loss Dataset
+# **Hearing Loss Dataset👂🛠️**
 ---
 
 The **Hearing Loss Dataset** is based on a real-world scenario, reflecting on the hearing health of factory workers who were exposed to the high levels noise in heavy machinery environments. This dataset is inspired by a collaboration between a heavy equipment manufacturing company and a general hospital, where regular hearing tests were conducted over a specific time period. These tests were designed to monitor the hearing thresholds of factory workers, ensuring a thorough representation of occupational hearing loss resulting from prolonged exposure to loud environments. The primary goal was to observe how the consistent noise exposure in such settings could affect workers' hearing abilities.
 
-* Category : Healthcare | Audiology | Occupational Health | Industrial Health and Safety
-* Specificity : Occupational Audiometry Test Data | Impact of Long-Term Noise Exposure
-* Containing with 22 columns and 400 rows
+* **Category** : Healthcare | Audiology | Occupational Health | Industrial Health and Safety
+* **Specificity** : Occupational Audiometry Test Data | Impact of Long-Term Noise Exposure
+* Containing with *22 columns* and *400 rows*
   
-## **Dataset Schema**
+## **🗂️Dataset Schema**
 
 
 | Column Name          | Description                                       | Data Type |

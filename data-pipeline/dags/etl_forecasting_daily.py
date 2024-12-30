@@ -321,8 +321,8 @@ if __name__ == '__main__':
     print(f'FORECASTING DATA: \n{extracted_forecasting}')
     print()
 
-    active_users = pipeline._get_active_users()
-    print(f'USERS: \n{active_users}')
+    users = pipeline._get_users()
+    print(f'USERS: \n{users}')
     print()
 
     transformed_data = pipeline.transform(extracted_test)
